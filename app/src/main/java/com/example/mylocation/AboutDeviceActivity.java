@@ -13,6 +13,7 @@ public class AboutDeviceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_device);
 
+        //getting info about device
         final String myDeviceBrand = "Device brand: " + android.os.Build.BRAND;
         final String myDeviceModel = "Device model: " + android.os.Build.MODEL;
         final String myDevice = "Device name: " + android.os.Build.DEVICE;
